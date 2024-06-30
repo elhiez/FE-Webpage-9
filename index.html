@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Allows for responsive design-->
+    <link rel="stylesheet" href="styles.css">
+
+<!-- Linking the external CSS file to the HTML doc-->
+
+    <title>Personal Bio</title>
+    
+</head>
+<body>
+
+    <div id = "profile-card">
+        <h1>Front End Webpage</h1>
+        <img src="placeholder.png" alt="Placeholder" class="profile-pic" width="500", height="500">
+        <ul>
+            <li>Just a college student building a website about them and their interests. A few include gaming, listening to music, and watching films, but more on that later. </li>
+        </ul>
+    </div>
+
+<!-- Buidling the foundation for my profile card that will be the first impression-->
+
+<button id="themeButton">CLICK ME TO CHANGE THE THEME COLOR!</button>
+
+<!-- Establishing a button as a connection to the JavaScript code for changing between light and dark mode themes-->
+
+    <div id="navbar">
+    <nav>
+        <ul>
+            <li><a href="#aboutmebio">About Me</a></li>
+            <li><a href="#hobbiesandinterests">Hobbies and Interests</a></li>
+            <li><a href="#favorites">Favorites</a></li>
+            <li><a href="#picturesandexamples">Pictures and Examples</a></li>
+        </ul>
+    </nav>
+    </div>
+
+<!--Establishing a nav bar with links to the 4 sections of my website-->
+
+    <div id ="aboutmebio">
+        <h2>I. About Me</h2>
+            <img class="float-left" src="placeholder.png" alt="Showing off my outfit" width="500", height="600">
+            <p class="mydescription">Hi everyone! I'm a second year college student studying to be a UI/UX designer. I'm 19, Mexican American, and queer. I'm a big boba lover and fan of surreal, immersive art, along with Instagram "hopecore" edits. Oftentimes they're quite inspiring and good at keeping me grounded and thankful for life and the beauty the mundane holds.</p>
+    </div>
+
+    <div id = "hobbiesandinterests">
+        <h2>II. Hobbies and Interests</h2>
+            <ol>
+                <li>Exploring World Cultures through Architecture, Fashion, Nature, Cuisine, etc.</li>
+                <li>Viewing Films ( although I'm falling out of it because it's such a time sink ;/ )</li>
+                <li>Discovering Unfamiliar Albums and Catering Music Playlists</li>
+                <li>Chilling in Discord with friends to play games, watch anime, Netflix shows, etc.</li>
+            </ol>
+            <ul>
+                <li>Here I am at my first convention with some friends. If you wanted a fun fact, I'm still waiting to enjoy my first concert. I may go see DPR or The Marías with some friends later though! Beforehand I considered seeing Ashnikko and Mitski. I also play Dead by Daylight quite a lot.</li>
+            </ul>
+        
+                <img src="placeholder.png" alt="Me and my bestfriends at a local convention" width="850", height="800">
+                <img src="P100.PNG" alt="My Dead By Daylight Character, Feng Min, at the max level currently possible" width="1050", height="800">
+    </div> 
+
+<!-- One of several instances establishing Div ID's to customize their appearance with CSS-->
+
+    <div id="favorites">
+        <h2>III. Favorites!</h2>
+        <img src="CatSmile.gif" alt="A cat smiling" width="500">
+            <ul>
+                <li>Favorite Artists: Mitski, Sheena Ringo, PACKS, Yaeji, Kelela</li>
+                <li>Favorite Music Genres: Bossa Nova, City Pop, Alt Rnb, Electronic Ambient, Funk, Jazz Fusion </li>
+                <li>Favorite Films: Spider-Man No Way Home, Lucy, Her, Blue Beetle, Whiplash</li>
+                <li>Favorite Shows: Alice in Borderland, Black Clover, Rupaul's Drag Race</li>
+                <li>Favorite Animals: Monkeys and Cats</li>
+                <li>Favorite Colors: Green, Purple, and Orange</li>
+            </ul>   
+    </div>    
+
+    <div id = "picturesandexamples">
+        <h2>IV. Pictures and Examples</h2>
+            <img src="placeholder.png" alt="A diagram with my favorite albums!" width="1000", height="1000">
+            <img src="FallenAngels.jpg" alt="Wong Kar Wai's 'Fallen Angels' Film Stills" width="500">
+            <img src="AliceInBorderland.gif" alt="Alice in Borderland's Kuina" width="500">
+    </div>
+
+<script src="script.js"></script>
+
+<!--Link to JavasScript file using Dark mode; for any other Interactions I could repeat the line above with a different link and file + new commands-->    
+
+</body>
+</html>
